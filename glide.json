@@ -1,0 +1,41 @@
+{
+  "kind": "column",
+  "name": "Customized interaction chart",
+  "description": "",
+  "author": "Thinh Dinh <thinh@lowcode.agency>",
+  "params": [
+    {
+      "name": "names",
+      "displayName": "Names",
+      "type": "string"
+    },
+    {
+      "name": "minutes",
+      "displayName": "Minutes",
+      "type": "string"
+    },
+    {
+      "name": "colors",
+      "displayName": "Color",
+      "type": "string"
+    },
+    {
+      "name": "label",
+      "displayName": "Label color",
+      "type": "string"
+    },
+    {
+      "name": "width",
+      "displayName": "Width (default to 100vw)",
+      "type": "number"
+    },
+    {
+      "name": "height",
+      "displayName": "Height (default to 80vh)",
+      "type": "number"
+    }
+  ],
+  "result": {
+    "type": "uri"
+  }
+}
